@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cfc8753c4458d533cb5b91ad9c783177",
+    "revision": "2494398b8a563118dd1c5eb6447f83dc",
     "url": "/pizza-market/index.html"
   },
   {
-    "revision": "9075675c6ec5f8b8f83e",
-    "url": "/pizza-market/static/css/main.ff3fdb41.chunk.css"
+    "revision": "e56ba63121ac1fb50911",
+    "url": "/pizza-market/static/css/main.2495261d.chunk.css"
   },
   {
-    "revision": "2764e441053f47e3f541",
-    "url": "/pizza-market/static/js/2.41deb9c2.chunk.js"
+    "revision": "3b9ef7eeeb028e78ef41",
+    "url": "/pizza-market/static/js/2.8ba36d0f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/pizza-market/static/js/2.41deb9c2.chunk.js.LICENSE.txt"
+    "url": "/pizza-market/static/js/2.8ba36d0f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9075675c6ec5f8b8f83e",
-    "url": "/pizza-market/static/js/main.fb533caa.chunk.js"
+    "revision": "e56ba63121ac1fb50911",
+    "url": "/pizza-market/static/js/main.e406baa8.chunk.js"
   },
   {
     "revision": "ea9acd860122b4e2117d",
