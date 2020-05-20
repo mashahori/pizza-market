@@ -1,0 +1,19 @@
+.cart {
+  padding-top: 160px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #662B00;
+  margin: 0 0 20px;
+}
+
+.empty {
+  font-size: 16px;
+  line-height: 19px;
+  color: #662B00;
+}
