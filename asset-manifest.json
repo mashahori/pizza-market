@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/pizza-market/static/css/main.8173e0f0.chunk.css",
-    "main.js": "/pizza-market/static/js/main.7c20a3b3.chunk.js",
-    "main.js.map": "/pizza-market/static/js/main.7c20a3b3.chunk.js.map",
+    "main.css": "/pizza-market/static/css/main.baeb0811.chunk.css",
+    "main.js": "/pizza-market/static/js/main.94154495.chunk.js",
+    "main.js.map": "/pizza-market/static/js/main.94154495.chunk.js.map",
     "runtime-main.js": "/pizza-market/static/js/runtime-main.ba6e1b4c.js",
     "runtime-main.js.map": "/pizza-market/static/js/runtime-main.ba6e1b4c.js.map",
-    "static/js/2.ec046ed2.chunk.js": "/pizza-market/static/js/2.ec046ed2.chunk.js",
-    "static/js/2.ec046ed2.chunk.js.map": "/pizza-market/static/js/2.ec046ed2.chunk.js.map",
+    "static/js/2.91f7979d.chunk.js": "/pizza-market/static/js/2.91f7979d.chunk.js",
+    "static/js/2.91f7979d.chunk.js.map": "/pizza-market/static/js/2.91f7979d.chunk.js.map",
     "index.html": "/pizza-market/index.html",
-    "precache-manifest.e5e5d9559346a312b87ece4229008d0e.js": "/pizza-market/precache-manifest.e5e5d9559346a312b87ece4229008d0e.js",
+    "precache-manifest.e9fe53d8f57b17f6f0c0be1705f25a6c.js": "/pizza-market/precache-manifest.e9fe53d8f57b17f6f0c0be1705f25a6c.js",
     "service-worker.js": "/pizza-market/service-worker.js",
-    "static/css/main.8173e0f0.chunk.css.map": "/pizza-market/static/css/main.8173e0f0.chunk.css.map",
-    "static/js/2.ec046ed2.chunk.js.LICENSE.txt": "/pizza-market/static/js/2.ec046ed2.chunk.js.LICENSE.txt"
+    "static/css/main.baeb0811.chunk.css.map": "/pizza-market/static/css/main.baeb0811.chunk.css.map",
+    "static/js/2.91f7979d.chunk.js.LICENSE.txt": "/pizza-market/static/js/2.91f7979d.chunk.js.LICENSE.txt",
+    "static/media/pizza1.png": "/pizza-market/static/media/pizza1.cc94eca5.png",
+    "static/media/pizza2.png": "/pizza-market/static/media/pizza2.cc94eca5.png",
+    "static/media/pizza3.png": "/pizza-market/static/media/pizza3.cc94eca5.png",
+    "static/media/pizza4.png": "/pizza-market/static/media/pizza4.cc94eca5.png",
+    "static/media/pizza5.png": "/pizza-market/static/media/pizza5.cc94eca5.png",
+    "static/media/pizza6.png": "/pizza-market/static/media/pizza6.cc94eca5.png",
+    "static/media/pizza7.png": "/pizza-market/static/media/pizza7.cc94eca5.png",
+    "static/media/pizza8.png": "/pizza-market/static/media/pizza8.cc94eca5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ba6e1b4c.js",
-    "static/js/2.ec046ed2.chunk.js",
-    "static/css/main.8173e0f0.chunk.css",
-    "static/js/main.7c20a3b3.chunk.js"
+    "static/js/2.91f7979d.chunk.js",
+    "static/css/main.baeb0811.chunk.css",
+    "static/js/main.94154495.chunk.js"
   ]
 }
