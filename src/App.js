@@ -11,7 +11,7 @@ function App() {
         <Route path="/cart" component={Cart} />
         <Route path="/" component={Menu} />
         <Route path="*" component={Menu} />
-        <Redirect path="/" />
+        <Redirect to="/" />
       </Switch>
     </BrowserRouter>
   );

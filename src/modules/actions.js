@@ -6,3 +6,4 @@ export const emptyCartAction = createAction('EMPTY_CART');
 export const decreaseCountAction = createAction('DECREASE');
 export const increaseCountAction = createAction('INCREASE');
 export const deleteItemtAction = createAction('DELETE');
+export const changeCurrencyAction = createAction('CHANGE_CURRENCY');

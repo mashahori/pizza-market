@@ -1,5 +1,5 @@
 import { addToCartAction, emptyCartAction, decreaseCountAction, increaseCountAction,
-deleteItemtAction } from './actions';
+deleteItemtAction, changeCurrencyAction } from './actions';
 import { pizzas } from '../utils';
 
 export const initState = {
@@ -8,6 +8,7 @@ export const initState = {
   total: 0,
   totalQuantity: 0,
   delivery: 5,
+  currency: '$',
 };
 
 export const rootReducer = (state = initState, action) => {
@@ -70,6 +71,34 @@ export const rootReducer = (state = initState, action) => {
         total: state.total - addedItem.price,
         totalQuantity: state.totalQuantity - addedItem.quantity,
       }
+    };
+    case changeCurrencyAction.toString(): {
+      let convertedItems = state.addedItems;
+      let convertedDelivery = 0;
+      let convertedTotal = 0;
+
+      if (action.payload === '€') {
+        for (let item of convertedItems) {
+          item.price = Math.round(item.price * 0.9);
+        }
+        convertedDelivery = Math.round(state.delivery * 0.9);
+      } else {
+        for (let item of convertedItems) {
+          item.price = Math.round(item.price / 0.9);
+        }
+        convertedDelivery = Math.round(state.delivery / 0.9);
+      }
+      
+      for (let item of convertedItems) {
+        convertedTotal += item.price * item.quantity;
+      }
+      return {
+        ...state,
+        addedItems: convertedItems,
+        currency: action.payload,
+        delivery: convertedDelivery,
+        total: convertedTotal,
+      };
     };
     default:
       return state;

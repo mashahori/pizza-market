@@ -1,15 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import style from './MenuCard.module.css';
-import { addToCartAction } from '../../modules/actions';
 
 const MenuCard = (props) => {
-  const { addToCart, data: { id, name, description, price } } = props;
+  const { data: { id, name, description, price } } = props;
 
-  const addPizza = (e) => {
-    addToCart(e.target.id);
-  };
+  const currency = useSelector(state => state.currency);
+  const dispatch = useDispatch();
 
   return (
     <div className={style.card}>
@@ -17,23 +15,26 @@ const MenuCard = (props) => {
       <h2 className={style.name}>{name}</h2>
       <p className={style.description}>{description}</p>
       <div className={style.wrapper}>
-        <span className={style.price}>{`${price}$`}</span>
-        <button className={style.button} type="button" id={id} onClick={addPizza}>Add to cart</button>
+        <span className={style.price}>{`${price}${currency}`}</span>
+        <button
+          className={style.button}
+          type="button"
+          id={id}
+          onClick={() => dispatch({ type: 'ADD_TO_CART', payload: id })}
+        >
+          Add to cart
+        </button>
       </div>
     </div>
   );
 };
 
 MenuCard.propTypes = {
-  routes: PropTypes.arrayOf(PropTypes.string),
+  data: PropTypes.object,
 };
 
 MenuCard.defaultProps = {
-  routes: [],
+  data: {},
 };
 
-const mapDispathToProps = (dispatch) => ({
-  addToCart: (id) => dispatch(addToCartAction(id)),
-});
-
-export default connect(null, mapDispathToProps)(MenuCard);
+export default MenuCard;

@@ -9,8 +9,9 @@ const CartList = (props) => {
   const [ ordered, setOrdered ] = useState(false);
 
   const addedItems = useSelector(state => state.addedItems);
-  const total = useSelector(state => state.total)
-  const delivery = useSelector(state => state.delivery)
+  const total = useSelector(state => state.total);
+  const delivery = useSelector(state => state.delivery);
+  const currency = useSelector(state => state.currency);
 
   const dispatch = useDispatch();
 
@@ -30,9 +31,9 @@ const CartList = (props) => {
           ))}
         </ul>
         <ul className={style.payment}>
-          <li className={style.payment__item}><span>Subtotal:</span><span>{`${total}$`}</span></li>
-          <li className={style.payment__item}><span>Delivery</span><span>{`${delivery}$`}</span></li>
-          <li className={style.payment__item}><span>Total</span><span>{`${total + delivery}$`}</span></li>
+          <li className={style.payment__item}><span>Subtotal:</span><span>{`${total}${currency}`}</span></li>
+          <li className={style.payment__item}><span>Delivery</span><span>{`${delivery}${currency}`}</span></li>
+          <li className={style.payment__item}><span>Total</span><span>{`${total + delivery}${currency}`}</span></li>
           <li className={style.payment__item}>
             <button className={style.button} type="button" onClick={(addedItems) =>handleSubmit(addedItems)}>
               Submit order

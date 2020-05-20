@@ -1,18 +1,19 @@
 import React from 'react';
 import style from './CartItem.module.css';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 const CartItem = (props) => {
   const { item: { id, name, quantity, price } } = props;
 
   const dispatch = useDispatch();
+  const currency = useSelector(state => state.currency);
 
   return (
     <div className={style.card}>
       <img className={style.picture} src={require(`../../assets/pizza${id}.png`)} alt="pizza" />
       <h2 className={style.name}>{name}</h2>
       <div className={style.wrapper}>
-        <span className={style.price}>{`${price}$`}</span>
+        <span className={style.price}>{`${price}${currency}`}</span>
         <button
           className={style.toggle}
           type="button"
