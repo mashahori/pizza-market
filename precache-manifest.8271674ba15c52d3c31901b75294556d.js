@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "842c9a95596dbfd25f3e3dac003edd2f",
+    "revision": "634854662b398996f54eaaadd90562cf",
     "url": "/pizza-market/index.html"
   },
   {
-    "revision": "79575e7000b19a0bfb94",
-    "url": "/pizza-market/static/css/main.baeb0811.chunk.css"
+    "revision": "f614d4764b6691884aae",
+    "url": "/pizza-market/static/css/main.ff3fdb41.chunk.css"
   },
   {
-    "revision": "2f498a8d02ac71ba2ff9",
-    "url": "/pizza-market/static/js/2.91f7979d.chunk.js"
+    "revision": "788b9f24aca6101ea502",
+    "url": "/pizza-market/static/js/2.2c787f09.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/pizza-market/static/js/2.91f7979d.chunk.js.LICENSE.txt"
+    "url": "/pizza-market/static/js/2.2c787f09.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "79575e7000b19a0bfb94",
-    "url": "/pizza-market/static/js/main.94154495.chunk.js"
+    "revision": "f614d4764b6691884aae",
+    "url": "/pizza-market/static/js/main.40ef2f2d.chunk.js"
   },
   {
     "revision": "ea9acd860122b4e2117d",
