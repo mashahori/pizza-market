@@ -11,7 +11,7 @@ const Popup = () => {
       </div>
       <div className={style.popup}>
         <h1 className={style.title}>Success!</h1>
-        <Link to="/menu">
+        <Link to="/">
           <button className={style.button} type="button" onClick={() => dispatch({ type: 'EMPTY_CART' })}>Menu</button>
         </Link>
       </div>
