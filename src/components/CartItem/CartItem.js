@@ -9,7 +9,7 @@ const CartItem = (props) => {
 
   return (
     <div className={style.card}>
-      <img className={style.picture} src={`img/pizza${id}.png`} alt="pizza" />
+      <img className={style.picture} src={require(`../../assets/pizza${id}.png`)} alt="pizza" />
       <h2 className={style.name}>{name}</h2>
       <div className={style.wrapper}>
         <span className={style.price}>{`${price}$`}</span>
@@ -28,7 +28,7 @@ const CartItem = (props) => {
         </button>
       </div>
       <button className={style.button} type="button" id={id} onClick={() => dispatch({ type: 'DELETE', payload: id })}>
-        <img src="img/can.png" alt="Delete" />
+        <img src={require('../../assets/can.png')} alt="Delete" />
       </button>
     </div>
   );

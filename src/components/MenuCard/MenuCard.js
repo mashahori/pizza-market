@@ -13,7 +13,7 @@ const MenuCard = (props) => {
 
   return (
     <div className={style.card}>
-      <img className={style.picture} src={`img/pizza${id}.png`} alt="pizza" />
+      <img className={style.picture} src={require(`../../assets/pizza${id}.png`)} alt="pizza" />
       <h2 className={style.name}>{name}</h2>
       <p className={style.description}>{description}</p>
       <div className={style.wrapper}>

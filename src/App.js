@@ -9,9 +9,10 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/menu" component={() => <Menu />} />
+        <Route path="/menu" component={Menu} />
         <Route path="/cart" component={Cart} />
         <Redirect to="/menu" />
+        <Route path='*' component={Menu} />
       </Switch>
     </BrowserRouter>
   );

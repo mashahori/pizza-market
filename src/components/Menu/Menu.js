@@ -14,6 +14,9 @@ const Menu = () => {
         <ul className={style.pizzas}>
           {pizzasList.map(item => <li key={item.name}><MenuCard data={item} /></li>)}
         </ul>
+        <div className={style.copyright}>
+          Designed by <a href="https://www.behance.net/katematefr34cd">Catherine T.</a>
+        </div>
       </div>
     </>
   );

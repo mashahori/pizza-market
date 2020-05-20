@@ -10,6 +10,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
+  padding-bottom: 100px;
 }
 
 img {
@@ -36,4 +37,9 @@ input[type="radio"].visually-hidden {
   white-space: nowrap;
   clip-path: inset(100%);
   overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #662B00; 
 }

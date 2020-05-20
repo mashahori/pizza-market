@@ -14,7 +14,7 @@ const Header = ({ link }) => {
             Menu
           </div>
           <Link className={style.link} to={`/${link}`}>
-            <img src="img/cart.png" alt="Cart" />
+            <img src={require('../../assets/cart.png')} alt="Cart" />
             <span className={style.count}>{count}</span>
           </Link>
         </div>
@@ -24,7 +24,7 @@ const Header = ({ link }) => {
             Menu
           </Link>
           <div className={style.link}>
-            <img src="img/cart.png" alt="Cart" />
+            <img src={require('../../assets/cart.png')} alt="Cart" />
             <span className={style.count}>{count}</span>
           </div>
         </div>
