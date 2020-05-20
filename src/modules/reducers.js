@@ -68,7 +68,7 @@ export const rootReducer = (state = initState, action) => {
       return {
         ...state,
         addedItems: restItems,
-        total: state.total - addedItem.price,
+        total: state.total - addedItem.price * addedItem.quantity,
         totalQuantity: state.totalQuantity - addedItem.quantity,
       }
     };
@@ -88,7 +88,7 @@ export const rootReducer = (state = initState, action) => {
         }
         convertedDelivery = Math.round(state.delivery / 0.9);
       }
-      
+
       for (let item of convertedItems) {
         convertedTotal += item.price * item.quantity;
       }

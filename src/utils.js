@@ -7,7 +7,7 @@ export const pizzas = [
   },
   {
     'id': '2',
-    'name': 'BUFALINA BUFALINA PIZZA2',
+    'name': 'BUFALINA PIZZA2',
     'description': 'Truffle olive oil sauce, Wisconsin mozzarella, Prosciutto di Parma, fresh arugula, and fresh mozzarella',
     'price': 13,
   },

@@ -1,12 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Header from '../Header';
 import style from './Cart.module.css';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import CartList from '../CartList';
 
-const Cart = (props) => {
+const Cart = () => {
   const addedItems = useSelector(state => state.addedItems);
+  const dispatch = useDispatch();
 
   return (
     <>
@@ -14,7 +14,16 @@ const Cart = (props) => {
       <div className={style.cart}>
         <h1 className={style.title}>Cart</h1>
         {addedItems.length ? (
-          <CartList />
+          <>
+            <select
+              className={style.currency}
+              onChange={(e) => dispatch({ type: 'CHANGE_CURRENCY', payload: e.target.value })}
+            >
+              <option value="$">USD</option>
+              <option value="€">EUR</option>
+            </select>
+            <CartList />
+          </>
           ) : (
             <div>
               <span className={style.empty}>No pizza here...</span>

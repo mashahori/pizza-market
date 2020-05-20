@@ -12,7 +12,7 @@ const Menu = () => {
       <div className={style.menu}>
         <h1 className={style.title}>Pizza</h1>
         <ul className={style.pizzas}>
-          {pizzasList.map(item => <li key={item.name}><MenuCard data={item} /></li>)}
+          {pizzasList.map(item => <li className={style.card} key={item.name}><MenuCard data={item} /></li>)}
         </ul>
         <div className={style.copyright}>
           Designed by <a href="https://www.behance.net/katematefr34cd">Catherine T.</a>

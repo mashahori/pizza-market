@@ -52,3 +52,9 @@
   line-height: 29px;
   text-decoration: none;
 }
+
+@media (max-width: 1440px) {
+  .menu {
+    width: 100%;
+  }
+}

@@ -2,7 +2,7 @@
   padding: 20px;
   background: #fff;
   border-radius: 10px;
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
   max-width: 285px;
   box-sizing: border-box;
 }
@@ -24,7 +24,8 @@
   font-size: 12px;
   line-height: 14px;
   color: rgba(102, 43, 0, 0.7);
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+  text-align: left;
 }
 
 .wrapper {

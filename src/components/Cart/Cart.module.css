@@ -17,3 +17,18 @@
   line-height: 19px;
   color: #662B00;
 }
+
+.currency {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 1200px) {
+  .cart {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

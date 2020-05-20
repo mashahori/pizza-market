@@ -80,3 +80,32 @@
   line-height: 29px;
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  .picture {
+    margin-right: 8px;
+  }
+
+  .button {
+    margin-left: 0;
+  }
+
+  .price {
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .picture {
+    margin: 0 auto;
+  }
+
+  .name {
+    margin-bottom: 32px;
+  }
+}
