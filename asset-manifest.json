@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pizza-market/static/css/main.2495261d.chunk.css",
-    "main.js": "/pizza-market/static/js/main.e406baa8.chunk.js",
-    "main.js.map": "/pizza-market/static/js/main.e406baa8.chunk.js.map",
-    "runtime-main.js": "/pizza-market/static/js/runtime-main.ba6e1b4c.js",
-    "runtime-main.js.map": "/pizza-market/static/js/runtime-main.ba6e1b4c.js.map",
-    "static/js/2.8ba36d0f.chunk.js": "/pizza-market/static/js/2.8ba36d0f.chunk.js",
-    "static/js/2.8ba36d0f.chunk.js.map": "/pizza-market/static/js/2.8ba36d0f.chunk.js.map",
+    "main.css": "/pizza-market/static/css/main.036aa3c8.chunk.css",
+    "main.js": "/pizza-market/static/js/main.da015403.chunk.js",
+    "main.js.map": "/pizza-market/static/js/main.da015403.chunk.js.map",
+    "runtime-main.js": "/pizza-market/static/js/runtime-main.b8ea0b90.js",
+    "runtime-main.js.map": "/pizza-market/static/js/runtime-main.b8ea0b90.js.map",
+    "static/js/2.eea7de2c.chunk.js": "/pizza-market/static/js/2.eea7de2c.chunk.js",
+    "static/js/2.eea7de2c.chunk.js.map": "/pizza-market/static/js/2.eea7de2c.chunk.js.map",
     "index.html": "/pizza-market/index.html",
-    "precache-manifest.371521526555374c5cf14cd0c65ab32c.js": "/pizza-market/precache-manifest.371521526555374c5cf14cd0c65ab32c.js",
+    "precache-manifest.63410899c857695696df14399a8cac56.js": "/pizza-market/precache-manifest.63410899c857695696df14399a8cac56.js",
     "service-worker.js": "/pizza-market/service-worker.js",
-    "static/css/main.2495261d.chunk.css.map": "/pizza-market/static/css/main.2495261d.chunk.css.map",
-    "static/js/2.8ba36d0f.chunk.js.LICENSE.txt": "/pizza-market/static/js/2.8ba36d0f.chunk.js.LICENSE.txt",
+    "static/css/main.036aa3c8.chunk.css.map": "/pizza-market/static/css/main.036aa3c8.chunk.css.map",
+    "static/js/2.eea7de2c.chunk.js.LICENSE.txt": "/pizza-market/static/js/2.eea7de2c.chunk.js.LICENSE.txt",
     "static/media/pizza1.png": "/pizza-market/static/media/pizza1.cc94eca5.png",
     "static/media/pizza2.png": "/pizza-market/static/media/pizza2.cc94eca5.png",
     "static/media/pizza3.png": "/pizza-market/static/media/pizza3.cc94eca5.png",
@@ -22,9 +22,9 @@
     "static/media/pizza8.png": "/pizza-market/static/media/pizza8.cc94eca5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ba6e1b4c.js",
-    "static/js/2.8ba36d0f.chunk.js",
-    "static/css/main.2495261d.chunk.css",
-    "static/js/main.e406baa8.chunk.js"
+    "static/js/runtime-main.b8ea0b90.js",
+    "static/js/2.eea7de2c.chunk.js",
+    "static/css/main.036aa3c8.chunk.css",
+    "static/js/main.da015403.chunk.js"
   ]
 }
